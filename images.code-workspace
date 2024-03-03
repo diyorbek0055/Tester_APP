@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../TESTING/images"
+		},
+		{
+			"name": "TESTING-App",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TESTING-App",
+		"liveServer.settings.port": 5503
+	}
+}

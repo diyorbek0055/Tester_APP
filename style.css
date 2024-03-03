@@ -1,0 +1,360 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Gluten:wght@500&family=Inter:wght@400;500;600;700;800&family=Konkhmer+Sleokchher&family=Nunito:wght@400;500;600&family=Philosopher:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+  body{
+    background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: crimson;
+    font-size: 80px;
+    font-family: Acme;
+    
+
+
+}
+span{
+    color: crimson;
+    font-size: 80px;
+    font-family: Acme;
+
+}
+  .Name{
+    margin-top: 170px;
+    color: rgb(232, 192, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    font-family:Acme; 
+    font-size: 50px;
+  }
+  
+  #app {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(232, 192, 12);
+    color: black;
+    font-family: Acme;
+     
+  }
+  button:hover{
+    background-color: crimson;
+    color: white;
+    transition: 0.4s;
+  }
+  .photo {
+    margin-top: 50px;
+    max-width: 170px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: none;
+
+  }
+
+  .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: rgb(232, 192, 12);
+    font-family: Acme;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 380px;
+  }
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.pro h2{
+    font-size: 20px;
+    color: azure;
+}
+
+.footer {
+    max-width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 60px;
+    padding-left: 10px;
+    
+  }
+  
+  .tele {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  
+  .tele img {
+    max-width: 30px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .tele p {
+    color: beige;
+    font-size: 14px;
+  }
+
+  .watching{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 400px;
+    margin-top: -140px;
+
+  }
+
+  .watching a{
+    text-decoration:  none;
+      margin: 5px;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 16px;
+      border: none;
+      cursor: pointer;
+     color: rgb(232, 192, 12);
+      font-family: Acme;
+      width: 147px;
+  }
+  .watching a:hover{
+    background-color: crimson;
+    color:#fff;
+    transition: 0.4s;
+  }
+  
+  .watching button{
+    width: 147px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  video{
+    max-width: 1200px;
+    
+    padding-top: 40px;
+  }
+
+  .back {
+
+    position: absolute;
+    top: 90px;
+    left: 29px;
+    text-decoration: none;
+      margin: 5px;
+      padding: 5px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background-color: rgb(232, 192, 12);
+      color: black;
+      font-family: Acme;
+       
+    }
+    .back:hover{
+      background-color: crimson;
+      color: white;
+      transition: 0.4s;
+    }
+
+
+/* responsive media query */
+@media only screen and (max-width: 881px ) and ( min-width: 320px) {
+  body{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container{
+    max-width: 880px;
+    height: 270vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+  }
+  .title{
+    margin-top: 15px;
+    font-size: 100px;
+  
+  
+  }
+  .app{
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  button{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  cursor: pointer;
+  }
+  .Name{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 80px;
+    margin-top: 60px;
+
+  }
+  span{
+    font-size: 90px;
+  }
+
+  .general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+  }
+  .watching{
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .watching a{
+    text-decoration:  none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+   color: rgb(232, 192, 12);
+    font-family: Acme;
+    width: 247px;
+
+  }
+  .watching button{
+    font-size: 34px;
+    width: 217px;
+  }
+
+  .footer{
+    position: absolute;
+    top: 290px;
+    left: 140px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .profile{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+position: relative;
+  }
+  .pro{
+    
+    position: absolute;
+    top: 50px;
+    left: 90px;
+  }
+  .pro img{
+    width: 200px;
+  }
+  .tele{
+    width: 150px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .tele img{
+   max-width: 90px;
+  }
+  .tele p{
+    font-size: 27px;
+  }
+  video{
+    max-width: 400px;
+  padding-top: 205px;
+  }
+
+.back{
+  padding: 4px;
+  font-size: 14px;
+}
+} 
