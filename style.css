@@ -127,6 +127,7 @@ span{
     align-items: center;
     text-align: center;
     gap: 30px;
+    cursor: pointer;
   }
   
   .tele img {
